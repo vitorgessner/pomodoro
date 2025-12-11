@@ -39,7 +39,7 @@ export const Button = ({ type, onClick, ...props }: ButtonTypes) => {
     const { class: color, Icon } = config[type];
 
     return (
-        <button className={`text-white font-bold py-2 px-2 rounded text-sm ${color}`}
+        <button className={`text-white font-bold py-2 px-2 rounded text-sm ${color} disabled:bg-accent-foreground`}
             onClick={onClick} {...props}>
             {Icon && <Icon stroke="white" size={20} />}
             {!Icon && 
