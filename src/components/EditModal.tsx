@@ -46,19 +46,19 @@ export const EditModal = ({ dispatch }: EditModalProps) => {
                         }}>
 
                         <label htmlFor="session">Session: </label>
-                        <input type="number" min={1} step={1} id="session" autoFocus className="border-2 px-2 py-1 w-full my-2"
+                        <input type="number" min={1} step={1} id="session" autoFocus
                             defaultValue={state.config.session / 60}
                             onChange={(event) => handleTimeConfigChange(event.target.value, 'session')}
                         />
 
                         <label htmlFor="break">Break: </label>
-                        <input type="number" id="break" className="border-2 px-2 py-1 w-full my-2"
+                        <input type="number" id="break"
                             defaultValue={state.config.break / 60}
                             onChange={(event) => handleTimeConfigChange(event.target.value, 'break')} 
                         />
 
                         <label htmlFor="longBreak">Long Break: </label>
-                        <input type="number" id="longBreak" className="border-2 px-2 py-1 w-full my-2"
+                        <input type="number" id="longBreak"
                             defaultValue={state.config.longBreak / 60}
                             onChange={(event) => handleTimeConfigChange(event.target.value, 'longBreak')} 
                         />

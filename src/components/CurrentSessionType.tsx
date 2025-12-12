@@ -9,7 +9,7 @@ export const CurrentSessionType = () => {
                 state.currentType === "longBreak" ? "Long Break" :
             state.currentType[0].toUpperCase() + state.currentType.substring(1)
             }</h1>
-            <p className="text-md flex justify-center opacity-70 font-bold mt-2 text-xl">#{state.sessionCount}</p>
+            <p className="count">#{state.sessionCount}</p>
         </div>
     );
 }

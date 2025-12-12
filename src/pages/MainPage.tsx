@@ -80,7 +80,7 @@ export const MainPage = () => {
 
     return (
         <TimerContext value={state}>
-        <div className="flex flex-col items-center my-15">
+        <div className="flex-center my-15">
             <EditModal dispatch={dispatch} />
 
             <CurrentSessionType />

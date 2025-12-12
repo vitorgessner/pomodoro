@@ -9,7 +9,7 @@ export const Timer = ({ handleSessionTypeChange }: TimerProps) => {
 
     return (
         <div className="mt-2">
-            <h2 className="text-7xl border-4 border-red-600 rounded-md py-2 px-7 text-white shadow-red-400 shadow-md bg-radial-[at_50%_0%] from-green-700 from-20% via-red-500 via-40% to-red-600 selection:bg-transparent"
+            <h2 className="timer"
                 onChange={() => {
                     if (handleSessionTypeChange) handleSessionTypeChange(state.currentType)
                 }}>
