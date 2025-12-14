@@ -39,7 +39,7 @@ export const Button = ({ type, onClick, ...props }: ButtonTypes) => {
     const { class: color, Icon } = config[type];
 
     return (
-        <button className={`button ${color}`}
+        <button className={`button disabled:bg-accent-foreground ${color}`}
             onClick={onClick} {...props}>
             {Icon && <Icon stroke="white" size={20} />}
             {!Icon && 

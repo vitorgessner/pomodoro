@@ -11,9 +11,9 @@ import { timerReducer } from "../context/TimerContext/timerReducer";
 
 import type { SessionType } from "../types/TimerState";
 
-import soundFile from '../assets/01. I Thought About Killing You.flac'
+import soundFile from '../assets/timer-terminer-342934.mp3'
 
-const NOTIFICATION_DURATION = 3000;
+const NOTIFICATION_DURATION = 2000;
 
 export const MainPage = () => {
     const [state, dispatch] = useReducer(timerReducer, initialState)
