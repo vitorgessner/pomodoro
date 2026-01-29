@@ -11,10 +11,6 @@ My idea with this project was to study and practice some concepts with React.js,
 
 While coding the project, I was able to learn with my mistakes, improve my skills with the technologies mentioned above, and learn a bit more about code splitting. I feel much more encouraged to work on future projects using these technologies.
 
-## 📸 Some pictures of the project in question:
+## 📸 Youtube Video:
 
-<div align="center">
-  <img height="300" src="https://i.imgur.com/3rkCRxw.png" alt="Timer stopped"/>
-  <img height="300" src="https://i.imgur.com/UsHlf4S.png" alt="Timer ticking"/>
-  <img height="300" src="https://i.imgur.com/PvRgATs.png" alt="Editing timers"/>
-</div>
+https://www.youtube.com/watch?v=5E7J11pdVQo
