@@ -8,7 +8,7 @@ export const Timer = ({ handleSessionTypeChange }: TimerProps) => {
     const state = useTimerContext()
 
     return (
-        <div className="mt-2">
+        <div className="mt-6 absolute z-10">
             <h2 className="timer"
                 onChange={() => {
                     if (handleSessionTypeChange) handleSessionTypeChange(state.currentType)
