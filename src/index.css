@@ -134,7 +134,7 @@
   }
 
   .timer {
-    @apply text-7xl text-white bg-[#e3262f] rounded-3xl border-2 border-black py-2 pb-4 px-4
+    @apply text-7xl text-white rounded-3xl py-2 pb-4 px-4
   }
 }
 
